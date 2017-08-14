@@ -12,7 +12,7 @@
       <img slot="icon" src="../assets/wechat.png">
       <span slot="label">发现</span>
     </tabbar-item>
-    <tabbar-item>
+    <tabbar-item link="personal">
       <img slot="icon" src="../assets/success.png">
       <span slot="label">我</span>
     </tabbar-item>

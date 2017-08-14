@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import Home from './components/Hello.vue'
 import List from './components/list.vue'
+import Personal from './components/personal.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,9 @@ const routes = [{
 }, {
   path: '/list',
   component: List
+}, {
+  path: '/personal',
+  component: Personal
 }]
 
 const router = new VueRouter({

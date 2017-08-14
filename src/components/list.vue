@@ -1,6 +1,6 @@
 <template>
   <div>
-    <panel header="对话列表"  :list="list" ></panel>
+    <panel header="联系人列表"  :list="list" type="3"></panel>
     <!--<panel header="对话列表" :footer="footer" :list="list" ></panel>-->
     <app-footer></app-footer>
   </div>
@@ -10,7 +10,7 @@
   import { Panel, Group, Radio } from 'vux'
   import AppFooter from '../components/appFooter'
   export default {
-    name: 'user-list',
+//    name: 'user-list',
     components: {
       Panel,
       Group,
@@ -19,16 +19,14 @@
     },
     data () {
       return {
-        type: '1',
+        type: '3',
         list: [{
           src: 'http://placeholder.qiniudn.com/60x60/3cc51f/ffffff',
-          title: '用户一',
-          desc: '这是我和你的对话',
+          title: '一',
           url: '/component/cell'
         }, {
           src: 'http://placeholder.qiniudn.com/60x60/3cc51f/ffffff',
           title: '用户二',
-          desc: '哩个系俄同你葛对话',
           url: {
             path: '/component/radio',
             replace: false
