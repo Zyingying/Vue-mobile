@@ -1,22 +1,21 @@
 <template>
   <div>
-    <!--<group title="switch the type">-->
-      <!--<radio title="type" v-model="type" :options="['1', '2', '3', '4', '5']"></radio>-->
-    <!--</group>-->
     <panel header="对话列表"  :list="list" ></panel>
     <!--<panel header="对话列表" :footer="footer" :list="list" ></panel>-->
-
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
   import { Panel, Group, Radio } from 'vux'
+  import AppFooter from '../components/appFooter'
   export default {
     name: 'user-list',
     components: {
       Panel,
       Group,
-      Radio
+      Radio,
+      AppFooter
     },
     data () {
       return {

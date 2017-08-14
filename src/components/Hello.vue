@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <user-list></user-list>
+    <!--<user-list></user-list>-->
     <app-footer></app-footer>
   </div>
 

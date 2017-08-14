@@ -1,19 +1,19 @@
 <template>
   <tabbar>
-    <tabbar-item>
-      <!--<img slot="icon" src="../assets/demo/icon_nav_button.png">-->
+    <tabbar-item badge="2" link="/">
+      <img slot="icon" src="../assets/news.png">
       <span slot="label">微信</span>
     </tabbar-item>
-    <tabbar-item show-dot>
-      <!--<img slot="icon" src="../assets/demo/icon_nav_msg.png">-->
+    <tabbar-item show-dot link="list">
+      <img slot="icon" src="../assets/list.png">
       <span slot="label">通讯录</span>
     </tabbar-item>
     <tabbar-item selected >
-      <!--<img slot="icon" src="../assets/demo/icon_nav_article.png">-->
+      <img slot="icon" src="../assets/wechat.png">
       <span slot="label">发现</span>
     </tabbar-item>
-    <tabbar-item badge="2">
-      <!--<img slot="icon" src="../assets/demo/icon_nav_cell.png">-->
+    <tabbar-item>
+      <img slot="icon" src="../assets/success.png">
       <span slot="label">我</span>
     </tabbar-item>
   </tabbar>
